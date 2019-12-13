@@ -12,7 +12,7 @@ constructor(props) {
 }
 
 getData=()=>{
-    fetch('http://localhost:3004/data')
+    fetch('http://localhost:3000/data')
     .then(data=>data.json())
     .then(data=>{
         this.setState({data})
